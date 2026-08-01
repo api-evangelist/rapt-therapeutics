@@ -1,8 +1,25 @@
 aid: rapt-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rapt-therapeutics.png
 name: RAPT Therapeutics
-description: 'RAPT Therapeutics is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'RAPT Therapeutics is a clinical-stage biopharmaceutical company developing
+  oral small-molecule and antibody therapies for patients with inflammatory, immunologic,
+  and oncologic diseases. Its pipeline centers on ozureprubart, a long-acting anti-IgE
+  antibody candidate in Phase 2 trials for food allergies, alongside programs targeting
+  key drivers of immune response. The company was acquired by GSK in January 2026.
+  It was surfaced as a portfolio company of GV and added to the API Evangelist network;
+  as a life-sciences therapeutics company it publishes no public API, developer portal,
+  or machine-readable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/rapt-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Immunology
+- Oncology
+- Clinical Trials
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rapt-therapeutics-domain-security.yml
 - type: Website
-  url: http://rapt.com
+  url: https://rapt.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
