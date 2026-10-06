@@ -40,7 +40,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Life Sciences
@@ -56,6 +56,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.gsk.com/en-gb/careers/early-careers/graduate-programme/engineering/
+  type: Blog
 - type: DomainSecurity
   url: security/rapt-therapeutics-domain-security.yml
 - type: Website
